@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "echo \"No dependency install required for static Vercel deployment\"",
+  "buildCommand": "node vercel-build.mjs",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/guide", "destination": "/index.html" },
+    { "source": "/technical", "destination": "/index.html" },
+    { "source": "/algorithm", "destination": "/index.html" },
+    { "source": "/implementation", "destination": "/index.html" },
+    { "source": "/results", "destination": "/index.html" }
+  ]
+}

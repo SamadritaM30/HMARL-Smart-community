@@ -1,0 +1,7 @@
+node_modules
+.npm-cache
+.npm-logs
+.next
+.wrangler
+dist
+*.log
