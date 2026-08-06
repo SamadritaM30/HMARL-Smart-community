@@ -1,10 +1,13 @@
 # HMARL Smart Grid Simulator
 
 [![Vercel Deployment](https://img.shields.io/badge/Vercel-Live%20Demo-brightgreen?style=for-the-badge&logo=vercel)](https://smartgrid-ten.vercel.app)
+[![VDAT 2026 Accepted](https://img.shields.io/badge/VDAT%202026-Accepted%20Paper-blue?style=for-the-badge)](https://drive.google.com/file/d/1ec_vyEMBSiYLdbPeHpHzPNLiMbnkFlhd/view?usp=sharing)
 
-> 🚀 **Live Interactive Web App**: [https://smartgrid-ten.vercel.app](https://smartgrid-ten.vercel.app)
+> 🚀 **Live Interactive Web App**: [https://smartgrid-ten.vercel.app](https://smartgrid-ten.vercel.app)  
+> 📜 **Accepted Research Paper (VDAT 2026)**: **"Hierarchical MARL with PV Forecasting and Dynamic Pricing in Smart Grids"** — Accepted at the *30th International Symposium on VLSI Design and Test (VDAT 2026)*.  
+> 📄 **[Read Full Paper PDF](https://drive.google.com/file/d/1ec_vyEMBSiYLdbPeHpHzPNLiMbnkFlhd/view?usp=sharing)**
 
-A deployable, interactive web simulator based on the research paper **Hierarchical Multi-Agent Reinforcement Learning for Smart Community Energy Management**.
+A deployable, interactive web simulator based on the research paper **Hierarchical MARL with PV Forecasting and Dynamic Pricing in Smart Grids**.
 
 The project converts the paper into a visual 24-hour smart-grid simulation where prosumer homes with PV panels and batteries coordinate with consumer homes through a Central Hub. Users can change community size, PV intensity, demand pressure, battery capacity, electricity price, and Central Hub allocation strategy, then watch how the results change in real time.
 
@@ -288,6 +291,14 @@ Output Directory: dist
 Install Command: echo "No dependency install required for static Vercel deployment"
 ```
 
+## Citation & Publication
+
+This project accompanies the research paper:
+
+> **Hierarchical MARL with PV Forecasting and Dynamic Pricing in Smart Grids**  
+> *Accepted for presentation at the 30th International Symposium on VLSI Design and Test (VDAT 2026).*  
+> 📄 **[Read Full Paper on Google Drive](https://drive.google.com/file/d/1ec_vyEMBSiYLdbPeHpHzPNLiMbnkFlhd/view?usp=sharing)**
+
 ## Impact
 
 This project demonstrates how AI-based smart-grid coordination can reduce household electricity cost, improve local energy sharing, and make community renewable-energy systems easier to understand through visual simulation.
@@ -295,3 +306,4 @@ This project demonstrates how AI-based smart-grid coordination can reduce househ
 Resume-ready summary:
 
 > Built a deployable HMARL smart-grid simulator using DQN-style prosumer battery control, PV forecasting logic, dynamic pricing, Central Hub energy redistribution, and interactive full-stack visualisation.
+
